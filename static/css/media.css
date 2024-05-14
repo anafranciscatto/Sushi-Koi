@@ -88,7 +88,10 @@
     /**
      * REUSED STYLE
      */
-  
+    .footer-content{
+      display: flex;
+      flex-direction: column;
+    }
     .container {
       max-width: 550px;
       width: 100%;
