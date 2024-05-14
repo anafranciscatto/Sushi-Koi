@@ -1,0 +1,30 @@
+/* Importa as fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Style+Script&family=Cinzel:wght@400..900&display=swap');
+/* Reset CSS */
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Define as variáveis para as famílias de fontes */
+:root {
+  --font-belleza: 'Belleza', sans-serif;
+  --font-estilo-script: 'Style Script', cursive;
+  --font-cinzel: 'Cinzel', serif;
+}
+
+/* Exemplo de uso das variáveis de fonte */
+body {
+  font-family: var(--font-belleza); /* Utilizando a fonte Belleza */
+  overflow-x: hidden;
+}
+
+/* h1 {
+  font-family: var(--font-estilo-script); /* Utilizando a fonte Style Script */
+
+/* 
+p 
+  font-family: var(--font-cinzel); /* Utilizando a fonte Cinzel */
+
