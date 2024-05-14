@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <link rel="stylesheet" href="/static/css/reserva.css">
+    <link rel="stylesheet" href="/static/css/media.css">
+    <title>Reservas</title>
+</head>
+<body>
+    <section class="background-image">
+        <div class="reservation-form">
+            <h1><a href="/">Sushi Koi</a></h1>
+            <h2>Formulário de Reserva</h2>
+            <form action="#" method="post">
+                <label for="data-reserva">Data da Reserva:</label>
+                <input type="date" id="data-reserva" name="data-reserva" required>
+
+                <label for="horario-reserva">Horário da Reserva:</label>
+                <input type="time" id="horario-reserva" name="horario-reserva" required>
+
+                <label for="quantidade-pessoas">Quantidade de Pessoas:</label>
+                <input type="number" id="quantidade-pessoas" name="quantidade-pessoas" required>
+
+                <label for="email-contato">Email de Contato:</label>
+                <input type="email" id="email-contato" name="email-contato" required>
+
+                <label for="celular-contato">Celular de Contato:</label>
+                <input type="tel" id="celular-contato" name="celular-contato" required>
+
+                <label for="observacao">Observação:</label>
+                <textarea id="observacao" name="observacao" rows="4"></textarea>
+
+                <label for="criancas">Tem crianças?</label>
+                <input type="checkbox" id="criancas" name="criancas">
+
+                <label for="cadeira-especial">Necessita de cadeira especial?</label>
+                <input type="checkbox" id="cadeira-especial" name="cadeira-especial">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
